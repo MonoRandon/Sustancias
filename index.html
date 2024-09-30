@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sustancias Químicas</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header text-center my-4">
+        <img class="img-principal" src="img/descarga4.png" alt="Chemical Image">
+        <h1>Sustancias Químicas</h1>
+        <img class="img-principal" src="img/descarga4.png" alt="Chemical Image">
+    </header>
+
+    <main>
+        <section class="pregunta-principal text-center my-4">
+            <h2>Preguntas de Investigación sobre:</h2>
+            <h3>¿Qué información conoce la población sobre sustancias químicas o productos de uso cotidiano (limpiadores, desinfectantes, cosméticos, etc.)?</h3>
+            <h2>Las Respuestas según las Personas (10 en total):</h2>
+        </section>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Respuesta 1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>¿Sabes qué tan peligrosas podrían ser las sustancias químicas que utilizas?</p>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+                            <input type="radio" class="btn-check" name="vbtn-radio1" id="vbtn-radio1" autocomplete="off" checked>
+                            <label class="btn btn-outline-danger" for="vbtn-radio1">Sí</label>
+                            <h3 class="response-text">El 50% de las personas respondieron que Sí</h3>
+
+                            <input type="radio" class="btn-check" name="vbtn-radio1" id="vbtn-radio2" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="vbtn-radio2">No</label>
+                            <h3 class="response-text">El 50% de las personas respondieron que No</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Respuesta 2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>¿Lees los químicos que tienen los productos?</p>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+                        <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+                            <input type="radio" class="btn-check" name="vbtn-radio2" id="vbtn-radio4" autocomplete="off" checked>
+                            <label class="btn btn-outline-danger" for="vbtn-radio4">Sí</label>
+                            <h3 class="response-text">El 35% de las personas respondieron que Sí</h3>
+
+                            <input type="radio" class="btn-check" name="vbtn-radio2" id="vbtn-radio5" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="vbtn-radio5">No</label>
+                            <h3 class="response-text">El 35% de las personas respondieron que No</h3>
+
+                            <input type="radio" class="btn-check" name="vbtn-radio2" id="vbtn-radio6" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="vbtn-radio6">A veces</label>
+                            <h3 class="response-text">El 35% de las personas respondieron que A veces</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Respuesta 3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>¿Sabes qué son los pictogramas?</p>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                        </div>
+                        <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+                            <input type="radio" class="btn-check" name="vbtn-radio3" id="vbtn-radio7" autocomplete="off" checked>
+                            <label class="btn btn-outline-danger" for="vbtn-radio7">Sí</label>
+                            <h3 class="response-text">El 30% de las personas respondieron que Sí</h3>
+
+                            <input type="radio" class="btn-check" name="vbtn-radio3" id="vbtn-radio8" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="vbtn-radio8">Tal vez</label>
+                            <h3 class="response-text">El 30% de las personas respondieron que Tal vez</h3>
+
+                            <input type="radio" class="btn-check" name="vbtn-radio3" id="vbtn-radio9" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="vbtn-radio9">No</label>
+                            <h3 class="response-text">El 40% de las personas respondieron que No</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Respuesta 4
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>¿Sabes qué son los pictogramas?</p>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+                            <input type="radio" class="btn-check" name="vbtn-radio4" id="vbtn-radio10" autocomplete="off" checked>
+                            <label class="btn btn-outline-danger" for="vbtn-radio10">Sí</label>
+                            <h3 class="response-text">El 50% de las personas respondieron que Sí</h3>
+
+                            <input type="radio" class="btn-check" name="vbtn-radio4" id="vbtn-radio11" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="vbtn-radio11">Algunas Veces</label>
+                            <h3 class="response-text">El 20% de las personas respondieron que Algunas Veces</h3>
+
+                            <input type="radio" class="btn-check" name="vbtn-radio4" id="vbtn-radio12" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="vbtn-radio12">No</label>
+                            <h3 class="response-text">El 30% de las personas respondieron que No</h3>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Respuesta 5
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>¿Que productos de limpieza ocupas en tu dia a dia?</p>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+                                <input type="radio" class="btn-check" name="vbtn-radio5" id="vbtn-radio13" autocomplete="off" checked>
+                                <label class="btn btn-outline-danger" for="vbtn-radio13">Cloro</label>
+                                <h3 class="response-text">7 Personas lo ocupan (70%)</h3>
+    
+                                <input type="radio" class="btn-check" name="vbtn-radio5" id="vbtn-radio14" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="vbtn-radio14">Alcohol Medicinal</label>
+                                <h3 class="response-text">4 Personas lo ocupan (40%)</h3>
+    
+                                <input type="radio" class="btn-check" name="vbtn-radio5" id="vbtn-radio15" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="vbtn-radio15">Detergente Lavaplatos</label>
+                                <h3 class="response-text">9 Personas lo acupan (90%)</h3>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio5" id="vbtn-radio16" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="vbtn-radio16">Raid</label>
+                                <h3 class="response-text">6 Personas lo ocupan (60%)</h3>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio5" id="vbtn-radio17" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="vbtn-radio17">Poet</label>
+                                <h3 class="response-text">8 Personas lo ocupan (80%)</h3>
+
+                                <input type="radio" class="btn-check" name="vbtn-radio5" id="vbtn-radio18" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="vbtn-radio18">Acetona</label>
+                                <h3 class="response-text">4 Personas lo ocupan (40%)</h3>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <section class="conclusion">
+            <h1>De acuerdo a las Respuestas Anteriores se le puede deducir que:</h1>
+            <br><br><br>
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">
+                            La mayoría de las personas no saben cómo utilizar adecuadamente las sustancias químicas ni están conscientes de los riesgos asociados con su uso. Esto puede representar un gran peligro para la salud. Por ello, es crucial estar informado y ser responsable. A continuación, te proporcionamos la información más importante y fundamental sobre las sustancias químicas que debes conocer para manejar estos productos de manera segura.
+                        </p>
+                        
+                        <h5 class="card-title">Advertencias sobre Sustancias Químicas</h5>
+                        <img src="/img/1.png" alt="">
+                        <ul class="list-unstyled">
+                            <li><strong>Riesgo de Exposición a Tóxicos:</strong> Muchas sustancias químicas pueden liberar vapores tóxicos. Por ejemplo, los limpiadores de horno pueden emitir vapores que irritan los pulmones. Usa estos productos en áreas bien ventiladas.</li>
+                            <li><strong>Peligros de Contacto Directo:</strong> El ácido clorhídrico, presente en algunos desincrustantes, puede causar graves quemaduras en la piel y ojos. Siempre usa guantes y gafas protectoras.</li>
+                            <li><strong>Reacciones Químicas Inesperadas:</strong> Mezclar productos de limpieza que contienen amoníaco y lejía puede producir cloro gaseoso, que es muy peligroso. Evita mezclar productos sin conocer sus interacciones.</li>
+                            <li><strong>Almacenamiento Inadecuado:</strong> Productos como disolventes y combustibles deben ser almacenados en sus envases originales y en lugares frescos y secos, fuera del alcance de niños y mascotas.</li>
+                            <li><strong>Ingestión Accidental:</strong> Productos como el detergente para lavavajillas pueden ser altamente tóxicos si se ingieren. Mantén estos productos en lugares seguros y bien etiquetados.</li>
+                            <li><strong>Fecha de Vencimiento y Uso:</strong> Algunos productos, como los insecticidas, pueden volverse menos efectivos o más peligrosos después de la fecha de vencimiento. Revisa las fechas y usa los productos según las recomendaciones del fabricante.</li>
+                        </ul>
+                        
+                        <h5 class="card-title">Recomendaciones para un Manejo Seguro</h5>
+                        <img src="/img/2.png" alt="">
+                        <ul class="list-unstyled">
+                            <li><strong>Leer las Etiquetas:</strong> Lee las instrucciones en las etiquetas de productos como los limpiadores multiusos. Por ejemplo, sigue las indicaciones sobre la cantidad de producto a usar y el tiempo de exposición recomendado.</li>
+                            <li><strong>Uso de Equipos de Protección Personal (EPP):</strong> Usa guantes de nitrilo y mascarillas cuando utilices productos como los removedores de pintura para evitar el contacto con sustancias químicas nocivas.</li>
+                            <li><strong>Ventilación Adecuada:</strong> Al usar productos como aerosoles para el hogar, asegúrate de trabajar en una habitación bien ventilada o al aire libre para minimizar la inhalación de vapores.</li>
+                            <li><strong>Educación y Capacitación:</strong> Participa en talleres o capacitaciones sobre el uso seguro de productos químicos en tu lugar de trabajo o en casa para estar mejor informado sobre los riesgos y las mejores prácticas.</li>
+                            <li><strong>Emergencias:</strong> En caso de exposición accidental, sigue las instrucciones de primeros auxilios en la etiqueta del producto y contacta a un centro de control de intoxicaciones si es necesario.</li>
+                            <li><strong>Eliminación Adecuada:</strong> Los productos químicos como pinturas y solventes deben ser llevados a centros de reciclaje o desechados según las normas locales para evitar la contaminación ambiental.</li>
+                        </ul>
+        
+                        <h5 class="card-title">Algunas Etiquetas de Advertencia</h5>
+                        <img src="/img/3.jpeg" alt="">
+                        <ul class="list-unstyled">
+                            <li><strong>"Causa irritación severa en los ojos":</strong> Indica que el producto, como algunos desinfectantes, puede causar daño ocular grave. Usa gafas protectoras para evitar el contacto.</li>
+                            <li><strong>"Mantener fuera del alcance de los niños":</strong> Señala que el producto, como los medicamentos para la limpieza de piscinas, es peligroso para los niños. Guarda estos productos en un lugar seguro.</li>
+                            <li><strong>"Uso en área bien ventilada":</strong> Recomienda utilizar productos como los adhesivos fuertes en lugares con buena circulación de aire para reducir la inhalación de vapores nocivos.</li>
+                        </ul>
+        
+                        <div class="alert alert-warning mt-4" role="alert">
+                            <strong>¡Atención!</strong> Manejar productos químicos requiere responsabilidad. Sigue siempre las recomendaciones de seguridad y consulta a un profesional si tienes dudas sobre el uso seguro de estos productos.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
